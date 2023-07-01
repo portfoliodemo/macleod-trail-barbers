@@ -22,6 +22,8 @@ h1 {
 nav {
     background-color: #333;
     color: #fff;
+    font-family: 'Glass Antiqua', cursive;
+    font-size: 1.25em;
 }
 
 .menu-btn {
@@ -30,7 +32,7 @@ nav {
 
 #menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -43,6 +45,23 @@ nav {
 #menu li a {
     text-decoration: none;
     color: #fff;
+}
+
+#hero {
+    display: grid;
+    justify-items: center;
+}
+
+figure {
+    margin: 2em;
+    padding: 0;
+    width: 80%;
+    border-radius: 3em;
+}
+
+figure img {
+    width: 100%;
+    border-radius: 3em;
 }
 
 @media (max-width: 768px) {

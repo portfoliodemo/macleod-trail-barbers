@@ -9,7 +9,7 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Roboto&display=swap" rel="stylesheet">
 
     <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="./assets/styles/main.css">
@@ -17,8 +17,14 @@
 </head>
 <body>
     <header>
-        <h1>Macleod Trail Barbers</h1>
+        <figure class="mtb-logo">
+            <img src="./assets/images/Macleod-Trail-Barbers-Initial-Logo-Cropped.jpg" alt="Macleod Trail Barbers">
+        </figure>
+        <h1>Macleod <span>Trail</span> Barbers</h1>
+        <!-- <div class="menu-btn">&#9988;</div> -->
+        <!-- <div class="menu-btn">&#9778;</div>    -->
         <div class="menu-btn">&#9776;</div>   
+        <!-- <div class="menu-btn-open">&#9932;</div> -->
     </header>
 
     <nav>
@@ -32,18 +38,98 @@
     </nav>
 
     <section id="hero">
-        <figure>
-          <img src="./assets/images/barbershop-chair.png" alt="Macleod Trail Barbers">
+        <figure class="hero-splash">
+            <img src="./assets/images/barbershop.jpg" alt="Barbershop Window">
+            <!-- <img src="./assets/images/barber-tools.jpg" alt="Barber Tools"> -->
+            <!-- <figcaption></figcaption> -->
+          <!-- <img src="./assets/images/barbershop-chair.png" alt="Macleod Trail Barbers"> -->
           <!-- <figcaption>Barbershop interior</figcaption> -->
         </figure>
-      </section>
+    </section>
+
+    <section class="introduction">
+        <p>Welcome to Macleod Trail Barbers, your premiere destination for exceptional haircuts and hot shaves in Calgary. We bring unparalleled expertise and a genuine passion for barbering, providing top-notch customer service. We take pride in delivering not only stylish and precise haircuts but also a personalized grooming experience that leaves you feeling refreshed and confident.</p>
+        <button class="book-btn">Book Appointment</button>
+        <p>Step into our modern and inviting barbershop and discover the perfect blend of skill, attention to detail, and a warm atmosphere that sets us apart from the rest. Trust us to transform your haircut and shave into a truly exceptional experience.</p>
+        <!-- <button class="book-btn">Book Appointment</button> -->
+    </section>
+
+    <section class="featured-services">
+        <h2>Featured Services</h2>
+        <div class="price-menu">
+            <figure class="hero-splash">
+                <img src="./assets/images/barber-pole-cannister.jpg" alt="Barber holding a small cannister modeled after a barber pole.">
+            </figure>
+            <ul class>
+                <li>Haircut</li>
+                <li>Boys Cut</li>
+                <li>Fade Haircut</li>
+                <li>Haircut & Beard Trim</li>
+                <li>Haircut & Hot Shave</li>
+                <li>Beard Trim</li>
+                <li>Hot Shave</li>
+                <li>Nose Waxing & Ear Waxing</li>
+            </ul>
+            <div class="prices">
+                <ul>
+                    <li>$31</li>
+                    <li>$25</li>
+                    <li>$36</li>
+                    <li>$55</li>
+                    <li>$60</li>
+                    <li>$25</li>
+                    <li>$28</li>
+                    <li>$XX</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>About MTB</h2>
+        <p>Welcome to our locally owned barbershop, where passion meets style! At our barbershop, we take pride in providing exceptional grooming services tailored to your unique preferences. Meet our skilled barber, Mikey, who brings over 10 years of experience to the chair, ensuring you receive a top-notch haircut every time. With our brand-new shop, we combine modern aesthetics with a classic barbershop atmosphere to create an inviting space where you can relax, unwind, and leave looking your absolute best. Experience the perfect blend of expertise, creativity, and a warm community atmosphere at our barbershop.</p>
+        <figure class="hero-splash">
+            <img src="./assets/images/shaving-kit.jpg" alt="Barber razor, brush, and mug.">
+        </figure>
+        <button class="book-btn">Book Appointment</button>
+        <!-- <p>Time over money! A classic barbershop emerging from a deep connection to our city's roots.</p> -->
+        <!-- <figure class="hero-splash">
+            <img src="./assets/images/barber-tools.jpg" alt="Barber tools neatly laid out and ready for use.">
+        </figure> -->
+    </section>
+
+    <section class="location">
+        <h2>Address & Hours of Operation</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d627.5797744005396!2d-114.0672287978719!3d51.01025349847451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53717044cb54d96f%3A0x4a304b3f01977ac3!2s4821%20A%20Macleod%20Trail%20SW%2C%20Calgary%2C%20AB%20T2G%200A7!5e0!3m2!1sen!2sca!4v1688595219525!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <ul>
+            <li>4821 Macleod Trail SW</li>
+            <li>Calgary, Alberta, Canada</li>
+            <li>T2J-1K6</li>
+        </ul>
+    </section>
+
+    <!-- <section class="gallery">
+        <h2>Gallery</h2>
+        <div class="image-gallery">
+            <figure class="slideshow hero-splash">
+                <img src="./assets/images/barbershop-shave.jpg" alt="Close up shave at a barbershop.">
+            </figure>
+            <figure class="slideshow hero-splash">
+                <img src="./assets/images/barber-supplies.jpg" alt="Barber supplies neatly laid out.">
+            </figure>
+            <figure class="slideshow hero-splash">
+                <img src="./assets/images/chris-knight-vI3m5UnZ0aQ-unsplash.jpg" alt="Barbershop">
+            </figure>
+        </div>
+    </section> -->
+
     <!-- <main>
         <h2>Main Content</h2>
     </main> -->
 
-    <!-- <footer>
-        <h3>Portfolio Demo</h3>
-    </footer> -->
+    <footer>
+        <h3>&copy; Macleod Trail Barbers</h3>
+    </footer>
 
     <script src="./assets/scripts/scripts.js"></script>
 </body>

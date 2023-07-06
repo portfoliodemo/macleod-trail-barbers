@@ -1,34 +1,93 @@
+/* Add Border Box to all elements */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Visualize every element with a white box - debugging */
+/* * {
+    outline: 1px solid mediumblue !important;
+    outline: 1px solid whitesmoke !important;
+} */
+
+/* :root {
+    --header-bg-color-black: rgb(46, 49, 54);
+    --header-bg-color-faded-grey: #3f3f3fd3; 
+    --font-family-bubblegum: 'Bubblegum Sans', cursive;
+    --font-family-corben: 'Corben', cursive;
+    --font-family-limelight: 'Limelight', cursive;
+    --font-family-raleway: 'Raleway', sans-serif; 
+    --font-family-roboto: 'Roboto', sans-serif;
+    --font-family-inconsolata: 'Inconsolata', sans-serif;
+} */
+
 /* CSS Reset */
 
-/* Global Variables */
-/* font-family: 'Glass Antiqua', cursive; */
-
 body {
-    background-color: #333;
-    color: #fff;
+    margin: 0;
+    padding: 0;
+    /* background-color: #333; */
+    color: #000;
+    /* color: #000; */
+    background-color: #fff;
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin: 1em 0 0.5em 0;
+    padding: 0;
+}
+
+.mtb-logo {
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    border-radius: 3em;
+}
+
+.mtb-logo img {
+    width: 100%;
 }
 
 h1 {
     display: inline;
     font-family: 'Glass Antiqua', cursive;
+    margin: 0.50em 0;
+    padding: 0;
+}
+
+h1 span {
+    color: #3c341f;
 }
 
 nav {
-    background-color: #333;
+    /* background-color: #00A651; */
+    /* background-color: #333; */
+    /* background-color: #3c341f; */
+    /* background-color: #3e3921; */
     color: #fff;
     font-family: 'Glass Antiqua', cursive;
-    font-size: 1.25em;
+    font-size: 1.5em;
+    margin-bottom: 0.50em;
 }
 
 .menu-btn {
     display: none;
 }
+
+/* .menu-btn-open {
+    display: none;
+} */
+
+/* .menu-btn-open.active {
+    display: block;
+} */
 
 #menu {
     display: flex;
@@ -44,24 +103,180 @@ nav {
   
 #menu li a {
     text-decoration: none;
-    color: #fff;
+    color: #000000;
+    /* color: #fff; */
+}
+
+#menu li a:hover {
+    color: orange;
+    /* color: red; */
+    /* color: #72a230; */
 }
 
 #hero {
     display: grid;
     justify-items: center;
+    /* background-color: #3c341f; */
 }
 
-figure {
-    margin: 2em;
+.hero-splash {
+    margin: 1em 0;
     padding: 0;
-    width: 80%;
-    border-radius: 3em;
+    width: 35%;
+    border-radius: 0.75em;
 }
 
-figure img {
+.hero-splash img {
     width: 100%;
-    border-radius: 3em;
+    border-radius: 0.75em;
+}
+
+.introduction {
+    display: grid;
+    justify-items: center;
+    padding: 0.25em 2.5em;
+    background-color: #3c341f;
+    color: #fff;
+    /* font-family: sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    /* justify-content: center; */
+}
+
+.introduction p {
+    padding: 0.5em;
+    max-width: 450px;
+    font-size: 1em;
+}
+
+.book-btn {
+    background-color: #00A651;
+    border-color: #00A651;
+    /* background-color: #72a230; */
+    color: #fff;
+    font-size: 1.25em;
+    border-radius: 0.50em;
+    padding: 0.50em;
+    /* border-color: #72a230; */
+    border-style: solid;
+    /* font-family: 'Glass Antiqua', cursive; */
+}
+
+.book-btn:hover {
+    background-color: #006832;
+    border-color: #00A651;
+    color: #ffffff;
+    /* background-color: #4c7415; */
+    /* background-color: #79ac33; */
+    /* border-color: #72a230;  */
+}
+
+/* Featured Services */
+.featured-services {
+    display: grid;
+    justify-items: center;
+    padding: 1em 2.5em;
+    /* background-image: url("./assets/images/barber-tools-laid-out.jpg"); */
+}
+
+.featured-services li {
+    list-style-type: none;
+}
+
+.featured-services h2 {
+    font-family: sans-serif, cursive;
+}
+
+.price-menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.price-menu figure {
+    width: 15%;
+}
+
+.price-menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.prices ul {
+    margin: 0;
+    padding: 0;
+}
+
+.about {
+    display: grid;
+    justify-items: center;
+    padding: 1em 2.5em;
+    background-color: #3c341f;
+    color: #fff;
+}
+
+.about h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.about p {
+    margin: 0.5em;
+    max-width: 450px;
+}
+
+.about .hero-splash {
+    width: 20%;
+}
+
+.location {
+    display: grid;
+    padding: 2em;
+    gap: 2em;
+    justify-items: center;
+    /* background-color: #3c341f; */
+}
+
+.location iframe {
+    border-radius: 2em;
+}
+
+.location ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery {
+    display: grid;
+    padding: 2em;
+    justify-items: center;
+    background-color: #3c341f;
+    color: #fff;
+}
+
+.gallery figure {
+    margin: 1em;
+}
+
+.image-gallery {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1em;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    display: grid;
+    justify-content: center;
+    background-color: #3c341f;
+}
+
+footer h3 {
+    font-size: 0.5em;
+    color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -80,6 +295,22 @@ figure img {
       flex-direction: column;
       align-items: center;
     }
+
+    .menu-btn-open {
+        display: none;
+    }
+
+    .image-gallery img {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
-  
-  
+
+@media (max-width: 350px) {
+    h1 {
+        display: none;
+    }
+
+    .mtb-logo {
+        width: 10%;
+    }
+}

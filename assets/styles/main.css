@@ -71,7 +71,8 @@ nav {
     /* background-color: #333; */
     /* background-color: #3c341f; */
     /* background-color: #3e3921; */
-    color: #fff;
+    /* color: #fff; */
+    /* background-color: #404040; */
     font-family: 'Glass Antiqua', cursive;
     font-size: 1.5em;
     margin-bottom: 0.50em;
@@ -108,7 +109,9 @@ nav {
 }
 
 #menu li a:hover {
-    color: orange;
+    color: #2636FF;
+    /* color: #19A3FF; */
+    /* color: orange; */
     /* color: red; */
     /* color: #72a230; */
 }
@@ -135,7 +138,11 @@ nav {
     display: grid;
     justify-items: center;
     padding: 0.25em 2.5em;
-    background-color: #3c341f;
+    background-color: #404040;
+    border-top-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    border-color: #fff;
+    /* background-color: #3c341f; */
     color: #fff;
     /* font-family: sans-serif; */
     font-family: 'Roboto', sans-serif;
@@ -149,10 +156,13 @@ nav {
 }
 
 .book-btn {
-    background-color: #00A651;
-    border-color: #00A651;
+    /* background-color: #00A651; */
+    /* border-color: #00A651; */
     /* background-color: #72a230; */
-    color: #fff;
+    background-color: #19A3FF;
+    border-color: #19A3FF;
+    color:#3c341f;
+    /* color: #fff; */
     font-size: 1.25em;
     border-radius: 0.50em;
     padding: 0.50em;
@@ -175,6 +185,7 @@ nav {
     display: grid;
     justify-items: center;
     padding: 1em 2.5em;
+    font-family: 'Roboto', sans-serif;
     /* background-image: url("./assets/images/barber-tools-laid-out.jpg"); */
 }
 
@@ -190,6 +201,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .price-menu figure {
@@ -210,17 +222,23 @@ nav {
     display: grid;
     justify-items: center;
     padding: 1em 2.5em;
-    background-color: #3c341f;
+    /* background-color: #808080; */
+    background-color: #404040;
+    border-top-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    /* background-color: #3c341f; */
     color: #fff;
+    font-family: 'Roboto', sans-serif;
 }
 
-.about h2 {
+/* .about h2 {
     margin: 0;
     padding: 0;
-}
+} */
 
 .about p {
-    margin: 0.5em;
+    padding: 0.5em;
+    /* margin: 0.5em; */
     max-width: 450px;
 }
 
@@ -233,6 +251,7 @@ nav {
     padding: 2em;
     gap: 2em;
     justify-items: center;
+    font-family: 'Roboto', sans-serif;
     /* background-color: #3c341f; */
 }
 
@@ -271,11 +290,14 @@ nav {
 footer {
     display: grid;
     justify-content: center;
-    background-color: #3c341f;
+    background-color: #404040;
+    /* background-color: #3c341f; */
+    font-family: 'Roboto', sans-serif;
+    padding: 1em 2em;
 }
 
 footer h3 {
-    font-size: 0.5em;
+    font-size: 1.5em;
     color: #fff;
 }
 

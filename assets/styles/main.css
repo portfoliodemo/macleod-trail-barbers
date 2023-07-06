@@ -156,25 +156,31 @@ nav {
 }
 
 .book-btn {
-    /* background-color: #00A651; */
-    /* border-color: #00A651; */
-    /* background-color: #72a230; */
-    background-color: #19A3FF;
-    border-color: #19A3FF;
-    color:#3c341f;
-    /* color: #fff; */
+    background-color: #EC3432;
+    border-color: #EC3432;
+    color: #fff;
     font-size: 1.25em;
     border-radius: 0.50em;
     padding: 0.50em;
-    /* border-color: #72a230; */
     border-style: solid;
+    /* background-color: #344C96; */
+    /* border-color: #72a230; */
     /* font-family: 'Glass Antiqua', cursive; */
+    /* background-color: #00A651; */
+    /* border-color: #00A651; */
+    /* background-color: #72a230; */
+    /* background-color: #19A3FF; */
+    /* border-color: #19A3FF; */
+    /* background-color: #C93438; */
+    /* color:#3c341f; */
 }
 
 .book-btn:hover {
-    background-color: #006832;
-    border-color: #00A651;
-    color: #ffffff;
+    color: #344C96;
+    background-color: seashell;
+    /* color: #EC3432; */
+    color: #344C96;
+    /* background-color: #006832; */
     /* background-color: #4c7415; */
     /* background-color: #79ac33; */
     /* border-color: #72a230;  */
@@ -243,7 +249,7 @@ nav {
 }
 
 .about .hero-splash {
-    width: 20%;
+    width: 40%;
 }
 
 .location {

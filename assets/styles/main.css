@@ -123,7 +123,8 @@ a:visited {
 }
 
 #menu li a:hover {
-    color: #2636FF;
+    color: #EC3432;
+    /* color: #2636FF; */
     /* color: #19A3FF; */
     /* color: orange; */
     /* color: red; */

@@ -360,6 +360,12 @@ footer h3 {
     }
 }
 
+@media (max-width: 575px) {
+    .price-menu figure {
+        width: 20%;
+    }
+}
+
 @media (max-width: 350px) {
     h1 {
         display: none;

@@ -76,6 +76,7 @@ nav {
     font-family: 'Glass Antiqua', cursive;
     font-size: 1.5em;
     margin-bottom: 0.50em;
+    background-color: #404040;
 }
 
 .menu-btn {
@@ -101,11 +102,24 @@ nav {
 #menu li {
     padding: 10px;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: seashell;
+}
   
 #menu li a {
     text-decoration: none;
-    color: #000000;
-    /* color: #fff; */
+    /* color: #000000; */
+    color: #fff;
+}
+
+#menu li a:visited {
+    text-decoration: none;
+
 }
 
 #menu li a:hover {
@@ -211,7 +225,7 @@ nav {
 }
 
 .price-menu figure {
-    width: 15%;
+    width: 40%;
 }
 
 .price-menu ul {
@@ -237,19 +251,30 @@ nav {
     font-family: 'Roboto', sans-serif;
 }
 
+.about-container {
+    display: flex;
+    align-items: center;
+    /* padding: 2em; */
+}
+
 /* .about h2 {
     margin: 0;
     padding: 0;
 } */
 
+.about .about-copy {
+    display: grid;
+}
+
 .about p {
-    padding: 0.5em;
+    padding: 0.5em 2em;
     /* margin: 0.5em; */
     max-width: 450px;
 }
 
 .about .hero-splash {
-    width: 40%;
+    width: 50%;
+    max-width: 600px;
 }
 
 .location {
@@ -300,10 +325,11 @@ footer {
     /* background-color: #3c341f; */
     font-family: 'Roboto', sans-serif;
     padding: 1em 2em;
+    border-top-left-radius: 2em;
 }
 
 footer h3 {
-    font-size: 1.5em;
+    font-size: 1.25em;
     color: #fff;
 }
 

@@ -105,10 +105,13 @@ nav {
 
 a {
     text-decoration: none;
+    color: seashell;
 }
 
 a:visited {
-    color: seashell;
+    /* color: seashell; */
+    color: whitesmoke;
+    background-color: #EC3432;
 }
   
 #menu li a {
@@ -171,7 +174,7 @@ a:visited {
 }
 
 .book-btn {
-    background-color: #EC3432;
+    background-color: #344C96;
     border-color: #EC3432;
     color: #fff;
     font-size: 1.25em;
@@ -190,11 +193,17 @@ a:visited {
     /* color:#3c341f; */
 }
 
+.book-btn a:visited {
+    color: seashell;
+    /* background-color: #344C96; */
+}
+
 .book-btn:hover {
-    color: #344C96;
-    background-color: seashell;
+    /* background-color: #344C96; */
+    border-color: #344C96;
+    background-color: #EC3432;
+    /* background-color: seashell; */
     /* color: #EC3432; */
-    color: #344C96;
     /* background-color: #006832; */
     /* background-color: #4c7415; */
     /* background-color: #79ac33; */

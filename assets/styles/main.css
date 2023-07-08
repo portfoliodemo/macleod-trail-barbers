@@ -74,6 +74,9 @@ nav {
     background-color: #404040;
     font-size: 1.5em;
     margin-bottom: 0.50em;
+    border-color: #EC3432;
+    border-width: 0.125em;
+    border-style: groove;
     border-top-left-radius: 0.5em;
     border-bottom-right-radius: 0.5em; 
     /* background-color: #404040; */
@@ -117,7 +120,7 @@ a {
 a:visited {
     /* color: seashell; */
     color: whitesmoke;
-    background-color: seashell;
+    /* background-color: seashell; */
 }
   
 #menu li a {
@@ -228,10 +231,20 @@ a:visited {
     /* color:#3c341f; */
 }
 
-.book-btn a:visited {
-    color: seashell;
-    /* background-color: #344C96; */
+.book-btn a {
+    background-color: #344C96;
+    border-color: #EC3432;
+    color: #fff;
+    font-size: 1.25em;
+    border-radius: 0.50em;
+    padding: 0.50em;
+    border-style: solid;
 }
+
+/* .book-btn a:visited {
+    color: seashell;
+    background-color: #344C96;
+} */
 
 .book-btn:hover {
     /* background-color: #344C96; */
@@ -261,7 +274,8 @@ a:visited {
 
 .featured-services h2 {
     font-family: 'Yeseva One', cursive;
-    border-bottom-color: #404040;
+    /* border-bottom-color: #404040; */
+    border-bottom-color: #EC3432;
     border-width: 0.125em;
     border-bottom-style: inset;
 }
@@ -302,7 +316,8 @@ a:visited {
 
 .about h2 {
     font-family: 'Yeseva One', cursive;
-    border-bottom-color: seashell;
+    /* border-bottom: #EC3432; */
+    border-bottom-color: #344C96;
     border-width: 0.125em;
     border-bottom-style: inset;
 }
@@ -365,14 +380,16 @@ a:visited {
 
 .location h2 {
     margin: 0;
-    border-bottom-color: #404040;
+    border-bottom-color: #EC3432;
+    /* border-bottom-color: #404040; */
     border-width: 0.125em;
     border-bottom-style: inset;
 }
 
 .location h3 {
     margin: 0.25em;
-    border-bottom-color: #404040;
+    /* border-bottom-color: #404040; */
+    border-bottom-color: #344C96;
     border-width: 0.0625em;
     border-bottom-style: inset;
 }

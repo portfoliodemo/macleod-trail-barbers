@@ -1,5 +1,4 @@
 /* Add Border Box to all elements */
-
 html {
     box-sizing: border-box;
 }
@@ -24,8 +23,6 @@ html {
     --font-family-roboto: 'Roboto', sans-serif;
     --font-family-inconsolata: 'Inconsolata', sans-serif;
 } */
-
-/* CSS Reset */
 
 body {
     margin: 0;
@@ -63,27 +60,13 @@ h1 {
     padding: 0;
 }
 
-.red {
-    color: #EC3432;
-  }
-  
-  .blue {
-    color: #344C96;
-  }
-  
-
-/* h1 span {
-    color: #EC3432;
-} */
-
 nav {
     /* background-color: #00A651; */
     /* background-color: #333; */
     /* background-color: #3c341f; */
     /* background-color: #3e3921; */
-    /* color: #fff; */
     /* background-color: #404040; */
-    font-family: 'Glass Antiqua', cursive;
+    /* font-family: 'Glass Antiqua', cursive; */
     /* font-family: 'Diplomata', cursive; */
     /* font-family: 'Jacques Francois Shadow', cursive; */
     font-size: 1.5em;
@@ -151,6 +134,14 @@ a:visited {
     display: grid;
     justify-items: center;
     /* background-color: #3c341f; */
+}
+
+.red {
+    color: #EC3432;
+}
+
+.blue {
+    color: #344C96;
 }
 
 .hero-splash {
@@ -238,6 +229,9 @@ a:visited {
 
 .featured-services h2 {
     font-family: 'Yeseva One', cursive;
+    border-bottom-color: #404040;
+    border-width: 0.125em;
+    border-bottom-style: inset;
 }
 
 .price-menu {
@@ -276,6 +270,9 @@ a:visited {
 
 .about h2 {
     font-family: 'Yeseva One', cursive;
+    border-bottom-color: seashell;
+    border-width: 0.125em;
+    border-bottom-style: inset;
 }
 
 .about-container {
@@ -283,11 +280,6 @@ a:visited {
     align-items: center;
     /* padding: 2em; */
 }
-
-/* .about h2 {
-    margin: 0;
-    padding: 0;
-} */
 
 .about .about-copy {
     display: grid;
@@ -307,9 +299,24 @@ a:visited {
 .location {
     display: grid;
     padding: 2em;
-    gap: 0.25em;
+    gap: 0.5em;
     justify-items: center;
+    /* background-color: #E6E6E6; */
     /* background-color: #3c341f; */
+}
+
+.location h2 {
+    margin: 0;
+    border-bottom-color: #404040;
+    border-width: 0.125em;
+    border-bottom-style: inset;
+}
+
+.location h3 {
+    margin: 0.25em;
+    border-bottom-color: #404040;
+    border-width: 0.0625em;
+    border-bottom-style: inset;
 }
 
 .location h2, h3 {
@@ -330,6 +337,18 @@ a:visited {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1em;
+}
+
+.social-media {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+
+.social-media .icon {
+    width: 5em;
+    height: 5em;
+    vertical-align: -.125em;
 }
 
 .gallery {

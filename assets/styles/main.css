@@ -106,7 +106,7 @@ a {
 a:visited {
     /* color: seashell; */
     color: whitesmoke;
-    background-color: #344C96;
+    background-color: seashell;
 }
   
 #menu li a {
@@ -275,6 +275,13 @@ a:visited {
     border-bottom-style: inset;
 }
 
+.about-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
 .about-container {
     display: flex;
     align-items: center;
@@ -292,8 +299,8 @@ a:visited {
 }
 
 .about .hero-splash {
-    width: 50%;
-    max-width: 600px;
+    width: 70%;
+    max-width: 550px;
 }
 
 .location {
@@ -403,10 +410,6 @@ footer h3 {
       display: flex;
       flex-direction: column;
       align-items: center;
-    }
-
-    .menu-btn-open {
-        display: none;
     }
 
     .image-gallery img {

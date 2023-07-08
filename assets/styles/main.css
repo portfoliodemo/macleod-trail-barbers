@@ -36,7 +36,7 @@ body {
 header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 1em 0 0.5em 0;
     padding: 0;
 }
@@ -125,7 +125,11 @@ a:visited {
 }
 
 #menu li a:hover {
-    color: #344C96;
+    color: #EC3432;
+    /* color: #344C96; */
+    /* background-color: #EC3432;
+    padding: 0.5em;
+    border-radius: 0.5em; */
     /* color: #2636FF; */
     /* color: #19A3FF; */
     /* color: orange; */
@@ -228,6 +232,7 @@ a:visited {
 
 .featured-services li {
     list-style-type: none;
+    padding: 0.25em 0.5em;
 }
 
 .featured-services h2 {
@@ -280,7 +285,10 @@ a:visited {
 
 .about-gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "cannister-photo first-paragraph"
+        "second-paragraph sunlit-barberchair-photo";
+    /* grid-template-columns: 1fr 1fr; */
     justify-items: center;
     align-items: center;
 }
@@ -296,14 +304,30 @@ a:visited {
 }
 
 .about p {
-    padding: 0.5em 2em;
+    padding: 0.25em 1.5em;
     /* margin: 0.5em; */
     max-width: 450px;
+}
+
+.about-first-paragraph {
+    grid-area: first-paragraph;
+}
+
+.about-second-paragraph {
+    grid-area: second-paragraph;
 }
 
 .about .hero-splash {
     width: 70%;
     max-width: 550px;
+}
+
+.hero-splash .cannister-photo {
+    grid-area: cannister-photo;
+}
+
+.hero-splash .sunlit-barberchair-photo {
+    grid-area: sunlit-barberchair-photo;
 }
 
 .location {
@@ -398,7 +422,7 @@ footer h3 {
     color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .menu-btn {
       display: block;
       cursor: pointer;
@@ -420,15 +444,54 @@ footer h3 {
     }
 }
 
+@media (max-width: 550px) {
+    .about-gallery {
+        grid-template-areas: 
+            "cannister-photo"
+            "first-paragraph"
+            "sunlit-barberchair-photo"
+            "second-paragraph";
+        /* grid-template-columns: 1fr 1fr; */
+        justify-items: center;
+        align-items: center;
+    }
+    
+    /* .about-gallery {
+        grid-template-columns: 1fr;
+    } */
+}
+
 @media (max-width: 500px) {
+
+    .price-menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+        justify-items: center;
+    }
+
     .price-menu figure {
         display: none;
     }
+
+    .about p {
+        padding: 0.25em 1em;
+    }
 }
+
+/* @media (max-width: ) */
 
 @media (max-width: 430px) {
     h1 {
         font-size: 1.5em;
+    }
+
+    .price-menu {
+        gap: 0.5em;
+    }
+
+    .featured-services {
+        padding: 0.25em 0.5em;
     }
 
     /* h1 {
@@ -442,6 +505,12 @@ footer h3 {
     /* .mtb-logo {
         display: none;
     } */
+}
+
+@media (max-width: 360px) {
+    .featured-services {
+        padding: 0.125em 0.25em;
+    }
 }
 
 @media (max-width: 350px) {

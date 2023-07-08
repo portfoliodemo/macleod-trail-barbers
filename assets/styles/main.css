@@ -426,12 +426,36 @@ footer h3 {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 430px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    /* h1 {
+        display: none;
+    } */
+
+    /* .mtb-logo {
+        width: 5%;
+    } */
+
+    /* .mtb-logo {
+        display: none;
+    } */
+}
+
+@media (max-width: 350px) {
+    h1 {
+        font-size: 1em;
+    }
+}
+
+/* @media (max-width: 395px) {
     h1 {
         display: none;
     }
 
     .mtb-logo {
-        width: 10%;
+        display: inline;
     }
-}
+} */

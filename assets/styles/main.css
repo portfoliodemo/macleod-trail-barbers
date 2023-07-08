@@ -36,7 +36,7 @@ body {
 header {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 1em 0 0.5em 0;
     padding: 0;
 }
@@ -54,6 +54,7 @@ header {
 
 h1 {
     /* font-family: 'Glass Antiqua', cursive; */
+    color: #404040;
     font-family: 'Yeseva One', cursive;
     display: inline;
     margin: 0.50em 0;
@@ -69,9 +70,10 @@ nav {
     /* font-family: 'Glass Antiqua', cursive; */
     /* font-family: 'Diplomata', cursive; */
     /* font-family: 'Jacques Francois Shadow', cursive; */
+    background-color: #fff;
     font-size: 1.5em;
     margin-bottom: 0.50em;
-    background-color: #404040;
+    /* background-color: #404040; */
 }
 
 .menu-btn {
@@ -112,7 +114,8 @@ a:visited {
 #menu li a {
     text-decoration: none;
     font-family: 'Yeseva One', cursive;
-    color: #fff;
+    color: #404040;
+    /* color: #fff; */
     /* color: #EC3432; */
 }
 
@@ -173,7 +176,7 @@ a:visited {
 
 .introduction p {
     padding: 0.5em;
-    max-width: 450px;
+    max-width: 500px;
     font-size: 1em;
 }
 
@@ -423,7 +426,7 @@ footer h3 {
     }
 }
 
-@media (max-width: 465px) {
+@media (max-width: 400px) {
     h1 {
         display: none;
     }

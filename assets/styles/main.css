@@ -547,11 +547,11 @@ footer h3 {
     }
 
     .price-menu {
-        gap: 0.5em;
+        gap: 0.25em;
     }
 
     .featured-services {
-        padding: 0.25em 0.5em;
+        padding: 1em 0.5em;
     }
 
     /* h1 {
@@ -569,13 +569,17 @@ footer h3 {
 
 @media (max-width: 360px) {
     .featured-services {
-        padding: 0.125em 0.25em;
+        padding: 0.5em 0.25em;
     }
 }
 
 @media (max-width: 350px) {
     h1 {
         font-size: 1em;
+    }
+
+    .price-menu {
+        gap: 0.125em;
     }
 }
 

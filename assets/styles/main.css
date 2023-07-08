@@ -8,10 +8,10 @@ html {
 }
 
 /* Visualize every element with a white box - debugging */
-* {
+/* * {
     outline: 1px solid mediumblue !important;
-    /* outline: 1px solid whitesmoke !important; */
-}
+    outline: 1px solid whitesmoke !important;
+} */
 
 /* :root {
     --header-bg-color-black: rgb(46, 49, 54);

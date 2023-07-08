@@ -81,6 +81,7 @@ nav {
 
 .menu-btn {
     display: none;
+    transform: scale(1.5);
 }
 
 /* .menu-btn-open {
@@ -519,6 +520,10 @@ footer h3 {
 
     .about p {
         padding: 0.25em 1em;
+    }
+
+    .menu-btn {
+        transform: scale(1.25);
     }
 }
 

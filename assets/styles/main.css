@@ -77,8 +77,8 @@ nav {
     border-color: #EC3432;
     border-width: 0.125em;
     border-style: groove;
-    border-top-left-radius: 0.5em;
-    border-bottom-right-radius: 0.5em; 
+    /* border-bottom-left-radius: 0.25em; */
+    /* border-bottom-right-radius: 0.25em;  */
     /* background-color: #404040; */
 }
 
@@ -483,7 +483,8 @@ footer h3 {
     }
     
     #menu li a:hover {
-        color: #fff;
+        color: #808080;
+        /* background-color: green; */
         /* color: #EC3432; */
         /* color: #344C96; */
         /* background-color: #EC3432;
@@ -510,6 +511,7 @@ footer h3 {
       display: flex;
       flex-direction: column;
       align-items: center;
+      border: none;
     }
 
     .image-gallery img {

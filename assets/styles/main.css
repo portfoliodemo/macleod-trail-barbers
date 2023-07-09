@@ -39,6 +39,9 @@ header {
     justify-content: space-evenly;
     margin: 1em 0 0.5em 0;
     padding: 0;
+    /* border-bottom-color: #EC3432; */
+    /* border-bottom-width: 0.4em; */
+    /* border-bottom-style: groove; */
 }
 
 .mtb-logo {
@@ -74,9 +77,9 @@ nav {
     background-color: #404040;
     font-size: 1.5em;
     margin-bottom: 0.50em;
-    border-color: #EC3432;
-    border-width: 0.125em;
-    border-style: groove;
+    /* border-color: #EC3432; */
+    /* border-width: 0.125em; */
+    /* border-style: groove; */
     /* border-bottom-left-radius: 0.25em; */
     /* border-bottom-right-radius: 0.25em;  */
     /* background-color: #404040; */
@@ -138,9 +141,11 @@ a:visited {
 }
 
 #menu li a:hover {
-    color: #fff;
+    color: #404040;
+    background-color: #fff;
     border-radius: 0.5em;
-    background-color: #344C96;
+    /* border-color: #EC3432; */
+    /* background-color: #344C96; */
     /* color: #344C96; */
     /* background-color: #EC3432;
     padding: 0.5em;
@@ -465,6 +470,12 @@ footer h3 {
 
 @media (max-width: 800px) {
 
+    header {
+        border-bottom-color: #EC3432;
+        border-bottom-width: 0.4em;
+        border-bottom-style: groove;
+    }
+
     nav {
         background-color: #fff;
     }
@@ -483,7 +494,8 @@ footer h3 {
     }
     
     #menu li a:hover {
-        color: #808080;
+        color: #EC3432;
+        background-color: #fff;
         /* background-color: green; */
         /* color: #EC3432; */
         /* color: #344C96; */

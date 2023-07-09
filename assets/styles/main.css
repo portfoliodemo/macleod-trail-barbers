@@ -10,7 +10,6 @@ html {
 /* Visualize every element with a white box - debugging */
 /* * {
     outline: 1px solid mediumblue !important;
-    outline: 1px solid whitesmoke !important;
 } */
 
 /* :root {
@@ -473,7 +472,7 @@ footer h3 {
     header {
         border-bottom-color: #EC3432;
         border-bottom-width: 0.4em;
-        border-bottom-style: groove;
+        border-bottom-style: solid;
     }
 
     nav {

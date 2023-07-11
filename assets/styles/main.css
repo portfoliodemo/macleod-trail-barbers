@@ -300,6 +300,27 @@ a:visited {
     margin: 0;
 }
 
+.service-prices ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+  
+.service-prices li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+  
+.service-name {
+    flex-grow: 1;
+}
+  
+.service-price {
+    flex-shrink: 0;
+    margin: 0 1.5em;
+}
+
 .prices ul {
     margin: 0;
     padding: 0;
@@ -551,7 +572,7 @@ footer h3 {
 
     .price-menu {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 1em;
         justify-items: center;
     }

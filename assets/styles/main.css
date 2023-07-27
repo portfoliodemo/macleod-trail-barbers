@@ -434,6 +434,10 @@ a:visited {
     padding: 0;
 }
 
+.location li {
+    font-size: 1.5em;
+}
+
 .hours-operation {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -592,6 +596,11 @@ footer h3 {
     }
 }
 
+@media (max-width: 460px) {
+    .location li {
+        font-size: 1em;
+    }
+}
 /* @media (max-width: ) */
 
 @media (max-width: 430px) {

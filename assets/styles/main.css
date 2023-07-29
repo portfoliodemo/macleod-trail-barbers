@@ -446,8 +446,8 @@ a:visited {
     color: #000;
 }
 
-.phone-number {
-    color: #000;
+#contact a.phone-number {
+    color: #344C96;
     font-size: 1.5em;
 }
 

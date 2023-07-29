@@ -444,6 +444,10 @@ a:visited {
     font-size: 1.5em;
 }
 
+.location .phone-number a, a:visited {
+    color: #000;
+}
+
 .hours-operation {
     display: grid;
     grid-template-columns: 1fr 1fr;

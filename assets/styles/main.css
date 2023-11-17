@@ -175,12 +175,16 @@ a:visited {
     margin: 1em 0;
     padding: 0;
     width: 75%;
-    border-radius: 0.75em;
+    border-radius: 1em;
+    border-width: 0.125rem;
+    border-color: #344C96;
+    border-style: solid;
 }
 
 .hero-splash img {
     width: 100%;
     border-radius: 0.75em;
+    display: block;
     /* box-shadow: 0.25em 10px 10px #344C96; */
 }
 
@@ -209,12 +213,17 @@ a:visited {
     width: 60%;
     margin: 1em 0;
     padding: 0;
-    border-radius: 0.75em;
+    /* border-radius: 0.75em; */
+    border-radius: 1em;
+    border-width: 0.125rem;
+    border-color: #ffffff;
+    border-style: solid;
 }
 
 .barbershop-layout img {
     width: 100%;
     border-radius: 0.75em;
+    display: block;
 }
 
 .book-btn {
@@ -292,11 +301,34 @@ a:visited {
     margin: 0.5em 0.25em;
 }
 
+.service-shave {
+    margin: 1em 0;
+    padding: 0;
+    min-width: 200px;
+    max-width: 16%;
+    border-radius: 1em;
+    border-width: 0.125rem;
+    border-color: #344C96;
+    border-style: solid;
+}
+
+.service-shave img {
+    width: 100%;
+    border-radius: 0.75em;
+    display: block;
+    /* box-shadow: 0.25em 10px 10px #344C96; */
+}
+
 .price-menu {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     font-family: 'Roboto', sans-serif;
+    border-width: 0.25rem;
+    border-style: double;
+    border-color: #EC3432;
+    border-radius: 1em;
+    padding: 1em;
 }
 
 .price-menu figure {
@@ -309,9 +341,13 @@ a:visited {
 }
 
 .service-prices ul {
-    padding: 0;
+    padding: 1rem;
     margin: 0;
     list-style: none;
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: #344C96;
+    border-width: 0.125rem;
 }
   
 .service-prices li {
@@ -392,6 +428,7 @@ a:visited {
 .about .hero-splash {
     width: 70%;
     max-width: 550px;
+    border-color: #ffffff;
 }
 
 .hero-splash .cannister-photo {
@@ -493,6 +530,20 @@ a:visited {
     height: auto;
 }
 
+.barbershop-view-back {
+    display: flex;
+    width: 40%;
+    border-radius: 1rem;
+    border-width: 0.125rem;
+    border-style: solid;
+    border-color: #344C96;
+}
+
+.barbershop-view-back img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
 footer {
     display: grid;
     justify-content: center;
@@ -588,6 +639,12 @@ footer h3 {
     } */
 }
 
+@media (max-width: 600px) {
+    .price-menu figure {
+        display: none;
+    }
+}
+
 @media (max-width: 500px) {
 
     .price-menu {
@@ -595,10 +652,6 @@ footer h3 {
         grid-template-columns: 1fr;
         gap: 1em;
         justify-items: center;
-    }
-
-    .price-menu figure {
-        display: none;
     }
 
     .about p {

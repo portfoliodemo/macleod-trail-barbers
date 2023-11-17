@@ -530,19 +530,19 @@ a:visited {
     height: auto;
 }
 
-.barbershop-view-back {
+/* .barbershop-view-back {
     display: flex;
     width: 40%;
     border-radius: 1rem;
     border-width: 0.125rem;
     border-style: solid;
     border-color: #344C96;
-}
+} */
 
-.barbershop-view-back img {
+/* .barbershop-view-back img {
     width: 100%;
     border-radius: 1rem;
-}
+} */
 
 footer {
     display: grid;
